@@ -1,0 +1,101 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+}
+.top{
+    background: #dedede;
+	font-family: cursive;
+	margin: 0;
+	padding: 0;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    font-family: cursive;
+ background-image: url('images/home_page.jpeg') ;
+}
+
+.head_1{
+    margin: 0 70px;
+    padding: 0 0;
+    font-size: 50px;
+    font-family: cursive;
+    text-decoration: underline;
+}
+.head_2{
+    margin: 0 70px;
+    font-size: 30px;
+    font-family: cursive;
+    text-decoration: underline;
+}
+.content_1{
+    margin: 0 70px;
+    font-size: 20px;
+    font-family: cursive;
+}
+.content_2{
+    margin: 0 70px;
+    font-size: 22px;
+    font-family: cursive;
+      
+}
+.head_3{
+    margin: 0 70px;
+    font-size: 30px;
+    font-family: cursive;
+    text-decoration: underline;
+    
+}
+.home-page:active{
+    font-size: 40px;
+/*    background-color: #808080;*/
+    margin: 0 70px;
+    
+}
+
+.toggle-btn:hover{
+     font-size: 20px;
+    font-family: cursive;
+    
+   
+}
+
+.toggle-btn{
+     padding: 10px 30px;
+    cursor: pointer;
+    background: #fff;
+    border: 0;
+    outline: none;
+    position: relative;
+    
+}
+
+.toggle-btn{
+    width: 16%;
+    height: auto;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 0;
+    background: #483D8B;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

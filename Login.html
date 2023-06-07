@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Login or Register </title>
+    <link rel="shortcut icon" type="image" href="images/logo.jpg">
+	<link rel="stylesheet" type="text/css" href="Login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    
+ 
+	<div class="hero">
+       
+		<div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+               <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+               <button type="button" class="toggle-btn" onclick="register()">Register</button>
+            </div>
+            <div class="social-icons">
+        <img src="images/fb.png">
+        <img src="images/inst.png">
+        <img src="images/wht.png">
+        </div>
+        <form id="login" class="Input-team">
+           
+               <input type="text" class="Input-feild" placeholder="User ID" required>
+               <input type="text" class="Input-feild" placeholder="Enter Password" required>
+               <input type="checkbox" class="check-box"><span>Remember password</span>
+            <button type="Submit" class="Submit-btn">Log IN</button><br><br>
+            
+            
+            
+            
+            <div class="home-page" style="text-align: left"> 
+                     <li>
+						<a href="PROJECT_BUSSINESS.html">Back to home Page</a>
+					</li>
+            </div>
+            
+            </form>
+            
+            
+            <form id="register" class="Input-group">
+               <input type="text" class="Input-feild" placeholder="User ID" required>
+               <input type="Email Address" class="Input-feild" placeholder="Email Address" required>
+               <input type="text" class="Input-feild" placeholder="Enter Password" required>
+               <input type="text" class="Input-feild" placeholder="Confirm Password" required>
+               <input type="checkbox" class="check-box"><span>I Agree to the Term & Conditions</span>
+            <button type="Submit" class="Submit-btn">Register</button>
+        
+            </form>
+        </div>
+        
+	</div>
+    
+
+    <script>
+    var x = document.getElementById("login");
+    var y = document.getElementById("register");
+    var z = document.getElementById("btn");
+        
+    function register(){
+        x.style.left = "-400px"
+        y.style.left = "50px"
+        z.style.left = "110px"
+    }
+     function login(){
+        x.style.left = "50px"
+        y.style.left = "450px"
+        z.style.left = "0px"
+    }
+    
+    
+    
+    </script>
+
+
+</body>
+</html>

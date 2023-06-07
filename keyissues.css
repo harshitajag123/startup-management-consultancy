@@ -1,0 +1,196 @@
+body{
+	background: #dedede;
+	font-family: cursive;
+	margin: 0;
+	padding: 0;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    font-family: cursive;
+/*
+ background-image: url('images/keyissues_03.jpg') ;
+    
+*/
+    color: white;
+    background-color: black;
+
+    
+}
+#head_1{
+    font-family: cursive;
+    font-size: 30px;
+    text-decoration: underline;
+    color: #ff3399;
+    
+}
+h2{
+    font-family: cursive;
+    font-size: 23px;
+    
+}
+
+h3{
+    font-family: cursive;
+    font-size: 22px;
+    text-decoration: underline;
+    color: #ff3399;
+}
+
+p{
+    font-family: cursive;
+    font-size: 21px;
+}
+
+footer .footer-cols ul{
+    list-style-type: none;
+
+}
+/*for giving special effect ex- bottom line, boldness etc,*/
+footer .footer-cols ul li:first-child{
+    font-size: 1.4rem;
+    padding-bottom: 3rem;
+    border-bottom: #444 solid 1px;
+    margin-bottom: 3rem;
+   
+
+}
+footer .footer-cols{
+    background-color: #909090;
+    line-height: 30px;
+    height: 330px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 5fr);
+    padding: 2rem;
+    text-align: left;
+    font-size: 14px;
+     
+}
+
+/*for removing dot decoration
+footer .footer-cols ul{
+    list-style-type: none;
+
+}
+/*for giving special effect ex- bottom line, boldness etc, for copyright line*/
+footer .footer-cols ul li:first-child{
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+    border-bottom: #444 solid 1px;
+    margin-bottom: 1rem;
+    
+}
+/*for copyright line*/
+footer .footer-bottom{
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+
+#showcase{
+    
+    height: 1000px;
+}
+
+
+.nav{
+
+	background-image: url('images/2_bussiness.jpg') ;
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    font-family: cursive;
+
+    
+}
+
+nav{
+	height: 60px;
+	background: #262626;
+	box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.logo{
+	padding: 5px 0 0 80px;
+	width: 230px;
+	height: 54px;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 30px;
+    font-family: cursive;
+}
+
+nav ul li{
+    background: #262626;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    color: #ff3399;
+
+}
+
+nav ul li a{
+    display: block;
+    padding: 0 15px;
+    color: #ff3399;
+    
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    background:  #999999;
+}
+
+nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+}
+
+nav ul li:hover > ul{
+    display: block;
+}
+
+nav ul ul li{
+    width: 130px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+.logo{
+	padding: 5px 0 0 80px;
+	width: 200px;
+	height: 54px;
+}
+
+nav ul ul ul li{
+    position: relative;
+    top: -60px;
+    letter-spacing: 150px;
+}
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
